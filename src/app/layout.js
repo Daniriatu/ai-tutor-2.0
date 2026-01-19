@@ -16,7 +16,7 @@ export const metadata = {
     title: "AI TUTOR",
     description: "An ai tutor helps you write better.",
     icons: {
-        icon: "/favicon.svg", // 显式指定使用这个文件
+        icon: "/favicon.ico", // 显式指定使用这个文件
     },
 };
 
