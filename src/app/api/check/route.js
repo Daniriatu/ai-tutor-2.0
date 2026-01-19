@@ -12,7 +12,7 @@ const redis = new Redis({
 
 const ratelimit = new Ratelimit({
     redis: redis,
-    limiter: Ratelimit.fixedWindow(20, "24 h"),
+    limiter: Ratelimit.fixedWindow(15, "24 h"),
 });
 
 // 在后端环境初始化，配置更简洁
